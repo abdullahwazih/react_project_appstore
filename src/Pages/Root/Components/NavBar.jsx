@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from "react-router"      // ✅ Use NavLink
 import logo from '../../../assets/logo.png'
 import githubLogo from '../../../assets/github.png'
 
@@ -9,19 +9,55 @@ const NavBar = () => {
 
             <div className="navbar-start ml-10">
                 <img src={logo} alt="Logo" className="w-10 h-10" />
-
                 <a className="btn btn-ghost text-[22px] font-bold text-[#7663e7]">
-                    HERO.IO</a>
+                    HERO.IO
+                </a>
             </div>
 
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-[16px] font-semibold">
-                    <li><a className="hover:text-[#7663e7] active:text-[#7663e7]">Home</a></li>
-                    <li><a className="hover:text-[#7663e7] active:text-[#7663e7]">Apps</a></li>
-                    <li><a className="hover:text-[#7663e7] active:text-[#7663e7]">Installation</a></li>
+
+                    <li>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? "text-[#7663e7] font-semibold"
+                                    : "hover:text-[#7663e7]"
+                            }
+                        >
+                            Home
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink
+                            to="/apps"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? "text-[#7663e7] font-semibold"
+                                    : "hover:text-[#7663e7]"
+                            }
+                        >
+                            Apps
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink
+                            to="/installation"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? "text-[#7663e7] font-semibold"
+                                    : "hover:text-[#7663e7]"
+                            }
+                        >
+                            Installation
+                        </NavLink>
+                    </li>
+
                 </ul>
             </div>
-
 
             <div className="navbar-end mr-10">
                 <a
@@ -36,8 +72,8 @@ const NavBar = () => {
                     Contribute
                 </a>
             </div>
-
-        </div>)
+        </div>
+    )
 }
 
 export default NavBar
