@@ -1,530 +1,272 @@
 [
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Spotify",
-        "companyName": "Spotify AB",
-        "id": 1,
-        "description": "Stream millions of songs and podcasts on demand.",
-        "size": 120,
-        "reviews": "12M",
-        "ratingAvg": 4.6,
-        "downloads": "500M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "1.3M"
-            },
-            {
-                "name": "2 star",
-                "count": "1.5M"
-            },
-            {
-                "name": "3 star",
-                "count": "2M"
-            },
-            {
-                "name": "4 star",
-                "count": "4M"
-            },
-            {
-                "name": "5 star",
-                "count": "13.2M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Instagram",
-        "companyName": "Meta Platforms",
-        "id": 2,
-        "description": "Share photos, stories, and connect with friends.",
-        "size": 150,
-        "reviews": "25M",
-        "ratingAvg": 4.4,
-        "downloads": "1B",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "1.8M"
-            },
-            {
-                "name": "2 star",
-                "count": "2.2M"
-            },
-            {
-                "name": "3 star",
-                "count": "3.5M"
-            },
-            {
-                "name": "4 star",
-                "count": "7M"
-            },
-            {
-                "name": "5 star",
-                "count": "10.5M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Duolingo",
-        "companyName": "Duolingo Inc.",
-        "id": 3,
-        "description": "Learn languages for free with fun bite-sized lessons.",
-        "size": 90,
-        "reviews": "8M",
-        "ratingAvg": 4.7,
-        "downloads": "300M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "300K"
-            },
-            {
-                "name": "2 star",
-                "count": "400K"
-            },
-            {
-                "name": "3 star",
-                "count": "800K"
-            },
-            {
-                "name": "4 star",
-                "count": "1.5M"
-            },
-            {
-                "name": "5 star",
-                "count": "5M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Notion",
-        "companyName": "Notion Labs Inc.",
-        "id": 4,
-        "description": "All-in-one workspace for notes, tasks, and projects.",
-        "size": 85,
-        "reviews": "2.5M",
-        "ratingAvg": 4.5,
-        "downloads": "50M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "120K"
-            },
-            {
-                "name": "2 star",
-                "count": "200K"
-            },
-            {
-                "name": "3 star",
-                "count": "300K"
-            },
-            {
-                "name": "4 star",
-                "count": "600K"
-            },
-            {
-                "name": "5 star",
-                "count": "1.28M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Canva",
-        "companyName": "Canva Pty Ltd",
-        "id": 5,
-        "description": "Design anything with easy-to-use templates and tools.",
-        "size": 110,
-        "reviews": "6M",
-        "ratingAvg": 4.8,
-        "downloads": "250M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "150K"
-            },
-            {
-                "name": "2 star",
-                "count": "200K"
-            },
-            {
-                "name": "3 star",
-                "count": "400K"
-            },
-            {
-                "name": "4 star",
-                "count": "1.1M"
-            },
-            {
-                "name": "5 star",
-                "count": "4.15M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "WhatsApp Messenger",
-        "companyName": "Meta Platforms",
-        "id": 6,
-        "description": "Fast, simple, and secure messaging for everyone.",
-        "size": 95,
-        "reviews": "35M",
-        "ratingAvg": 4.3,
-        "downloads": "5B",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "2.8M"
-            },
-            {
-                "name": "2 star",
-                "count": "3.2M"
-            },
-            {
-                "name": "3 star",
-                "count": "4M"
-            },
-            {
-                "name": "4 star",
-                "count": "8M"
-            },
-            {
-                "name": "5 star",
-                "count": "17M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "GitHub",
-        "companyName": "GitHub Inc.",
-        "id": 7,
-        "description": "Collaborate on code, manage repositories, and track issues.",
-        "size": 75,
-        "reviews": "1.5M",
-        "ratingAvg": 4.6,
-        "downloads": "20M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "60K"
-            },
-            {
-                "name": "2 star",
-                "count": "80K"
-            },
-            {
-                "name": "3 star",
-                "count": "150K"
-            },
-            {
-                "name": "4 star",
-                "count": "400K"
-            },
-            {
-                "name": "5 star",
-                "count": "960K"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Zoom Cloud Meetings",
-        "companyName": "Zoom Video Communications",
-        "id": 8,
-        "description": "Video conferencing and messaging made simple.",
-        "size": 130,
-        "reviews": "9M",
-        "ratingAvg": 4.2,
-        "downloads": "1B",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "1.2M"
-            },
-            {
-                "name": "2 star",
-                "count": "900K"
-            },
-            {
-                "name": "3 star",
-                "count": "1.1M"
-            },
-            {
-                "name": "4 star",
-                "count": "2.5M"
-            },
-            {
-                "name": "5 star",
-                "count": "3.3M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Telegram",
-        "companyName": "Telegram FZ-LLC",
-        "id": 9,
-        "description": "Cloud-based messaging app focused on speed and security.",
-        "size": 100,
-        "reviews": "22M",
-        "ratingAvg": 4.5,
-        "downloads": "1B",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "1.3M"
-            },
-            {
-                "name": "2 star",
-                "count": "1.5M"
-            },
-            {
-                "name": "3 star",
-                "count": "2M"
-            },
-            {
-                "name": "4 star",
-                "count": "4M"
-            },
-            {
-                "name": "5 star",
-                "count": "13.2M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "TikTok",
-        "companyName": "ByteDance Ltd.",
-        "id": 10,
-        "description": "Watch, create, and share short videos with the world.",
-        "size": 160,
-        "reviews": "42M",
-        "ratingAvg": 4.4,
-        "downloads": "1B",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "3.1M"
-            },
-            {
-                "name": "2 star",
-                "count": "4M"
-            },
-            {
-                "name": "3 star",
-                "count": "6M"
-            },
-            {
-                "name": "4 star",
-                "count": "12M"
-            },
-            {
-                "name": "5 star",
-                "count": "17.9M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "ChatGPT",
-        "companyName": "OpenAI",
-        "id": 11,
-        "description": "Your AI-powered assistant for learning, writing, and coding.",
-        "size": 85,
-        "reviews": "3M",
-        "ratingAvg": 4.8,
-        "downloads": "50M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "100K"
-            },
-            {
-                "name": "2 star",
-                "count": "150K"
-            },
-            {
-                "name": "3 star",
-                "count": "200K"
-            },
-            {
-                "name": "4 star",
-                "count": "500K"
-            },
-            {
-                "name": "5 star",
-                "count": "2.05M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Figma",
-        "companyName": "Figma Inc.",
-        "id": 12,
-        "description": "Collaborative design tool for teams and creators.",
-        "size": 105,
-        "reviews": "1.8M",
-        "ratingAvg": 4.7,
-        "downloads": "30M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "70K"
-            },
-            {
-                "name": "2 star",
-                "count": "90K"
-            },
-            {
-                "name": "3 star",
-                "count": "150K"
-            },
-            {
-                "name": "4 star",
-                "count": "400K"
-            },
-            {
-                "name": "5 star",
-                "count": "1.08M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Reddit",
-        "companyName": "Reddit Inc.",
-        "id": 13,
-        "description": "Dive into communities on every topic you love.",
-        "size": 90,
-        "reviews": "8M",
-        "ratingAvg": 4.3,
-        "downloads": "100M",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "700K"
-            },
-            {
-                "name": "2 star",
-                "count": "800K"
-            },
-            {
-                "name": "3 star",
-                "count": "1M"
-            },
-            {
-                "name": "4 star",
-                "count": "2M"
-            },
-            {
-                "name": "5 star",
-                "count": "3.5M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Snapchat",
-        "companyName": "Snap Inc.",
-        "id": 14,
-        "description": "Share the moment instantly with friends through snaps.",
-        "size": 140,
-        "reviews": "15M",
-        "ratingAvg": 4.2,
-        "downloads": "1B",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "1.2M"
-            },
-            {
-                "name": "2 star",
-                "count": "1.5M"
-            },
-            {
-                "name": "3 star",
-                "count": "2M"
-            },
-            {
-                "name": "4 star",
-                "count": "4M"
-            },
-            {
-                "name": "5 star",
-                "count": "6.3M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Google Maps",
-        "companyName": "Google LLC",
-        "id": 15,
-        "description": "Navigate, explore, and discover places with real-time GPS.",
-        "size": 130,
-        "reviews": "40M",
-        "ratingAvg": 4.6,
-        "downloads": "1B",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "2M"
-            },
-            {
-                "name": "2 star",
-                "count": "2.5M"
-            },
-            {
-                "name": "3 star",
-                "count": "4M"
-            },
-            {
-                "name": "4 star",
-                "count": "9M"
-            },
-            {
-                "name": "5 star",
-                "count": "22.5M"
-            }
-        ]
-    },
-    {
-        "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
-        "title": "Google Maps",
-        "companyName": "Google LLC",
-        "id": 15,
-        "description": "Navigate, explore, and discover places with real-time GPS.",
-        "size": 130,
-        "reviews": "40M",
-        "ratingAvg": 4.6,
-        "downloads": "1B",
-        "ratings": [
-            {
-                "name": "1 star",
-                "count": "2M"
-            },
-            {
-                "name": "2 star",
-                "count": "2.5M"
-            },
-            {
-                "name": "3 star",
-                "count": "4M"
-            },
-            {
-                "name": "4 star",
-                "count": "9M"
-            },
-            {
-                "name": "5 star",
-                "count": "22.5M"
-            }
-        ]
-    }
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Spotify is a music streaming platform that offers millions of songs, podcasts, and playlists. You can discover new music tailored to your taste and create personalized playlists. Share your favorite tracks with friends and follow artists you love. With offline mode, you can listen anytime, anywhere. The app provides high-quality sound and seamless playback across devices, ensuring a smooth experience. Explore curated playlists, podcasts on various topics, and enjoy a fully immersive audio experience.",
+    "size": 120,
+    "reviews": "12M",
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": "1.3M" },
+      { "name": "2 star", "count": "1.5M" },
+      { "name": "3 star", "count": "2M" },
+      { "name": "4 star", "count": "4M" },
+      { "name": "5 star", "count": "13.2M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 2,
+    "description": "Instagram is a social media platform for sharing photos, videos, and stories. Connect with friends, family, and communities around the globe. Explore content from creators, follow trends, and engage with interactive features like polls, quizzes, and Reels. Use creative tools to enhance your visuals and share moments instantly. Stay inspired by discovering new accounts, exploring popular hashtags, and following your favorite celebrities. Instagram brings visual storytelling to life while helping you connect with the world.",
+    "size": 150,
+    "reviews": "25M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "1.8M" },
+      { "name": "2 star", "count": "2.2M" },
+      { "name": "3 star", "count": "3.5M" },
+      { "name": "4 star", "count": "7M" },
+      { "name": "5 star", "count": "10.5M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 3,
+    "description": "Duolingo makes language learning fun and engaging through bite-sized lessons. Practice speaking, reading, writing, and listening skills while earning rewards and maintaining streaks. Learn at your own pace with gamified exercises and quizzes. Challenge yourself to unlock higher levels and gain confidence in new languages. Duolingo offers courses for over 30 languages, suitable for beginners and advanced learners alike. Perfect for travel, work, or personal enrichment, it turns learning into an enjoyable daily habit.",
+    "size": 90,
+    "reviews": "8M",
+    "ratingAvg": 4.7,
+    "downloads": "300M",
+    "ratings": [
+      { "name": "1 star", "count": "300K" },
+      { "name": "2 star", "count": "400K" },
+      { "name": "3 star", "count": "800K" },
+      { "name": "4 star", "count": "1.5M" },
+      { "name": "5 star", "count": "5M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Notion",
+    "companyName": "Notion Labs Inc.",
+    "id": 4,
+    "description": "Notion is an all-in-one workspace for notes, tasks, projects, and databases. Organize your ideas and work with customizable pages and templates. Collaborate in real-time with teammates and track progress on projects. Keep everything structured and easy to find using tags, categories, and search. Notion adapts to personal and team workflows, whether for study, work, or planning. Its flexible interface and rich features make productivity simple and visually organized.",
+    "size": 85,
+    "reviews": "2.5M",
+    "ratingAvg": 4.5,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": "120K" },
+      { "name": "2 star", "count": "200K" },
+      { "name": "3 star", "count": "300K" },
+      { "name": "4 star", "count": "600K" },
+      { "name": "5 star", "count": "1.28M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 5,
+    "description": "Canva is a powerful design platform that allows anyone to create professional visuals easily. Use templates for presentations, social media posts, posters, and more. Customize images, fonts, and graphics with a simple drag-and-drop interface. Collaborate with teams and get instant feedback on designs. Canva also provides a rich library of stock photos, icons, and illustrations to enhance your projects. Perfect for beginners and professionals, it makes design simple, creative, and fun.",
+    "size": 110,
+    "reviews": "6M",
+    "ratingAvg": 4.8,
+    "downloads": "250M",
+    "ratings": [
+      { "name": "1 star", "count": "150K" },
+      { "name": "2 star", "count": "200K" },
+      { "name": "3 star", "count": "400K" },
+      { "name": "4 star", "count": "1.1M" },
+      { "name": "5 star", "count": "4.15M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms",
+    "id": 6,
+    "description": "WhatsApp Messenger provides fast, secure, and reliable messaging. Send text messages, voice notes, images, and videos with end-to-end encryption. Make high-quality voice and video calls to anyone worldwide. Create groups for friends, family, or work to stay connected easily. Share documents and locations instantly, and back up your chats securely. WhatsApp ensures smooth communication with minimal data usage and cross-platform accessibility.",
+    "size": 95,
+    "reviews": "35M",
+    "ratingAvg": 4.3,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": "2.8M" },
+      { "name": "2 star", "count": "3.2M" },
+      { "name": "3 star", "count": "4M" },
+      { "name": "4 star", "count": "8M" },
+      { "name": "5 star", "count": "17M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "GitHub",
+    "companyName": "GitHub Inc.",
+    "id": 7,
+    "description": "GitHub is the leading platform for hosting and collaborating on code. Manage repositories, track issues, and review pull requests efficiently. Work with teams around the world and integrate with countless tools and services. GitHub supports version control and ensures smooth collaboration on open-source and private projects. Learn, contribute, and showcase your coding skills to the developer community. Its rich features help streamline development workflows and enhance productivity.",
+    "size": 75,
+    "reviews": "1.5M",
+    "ratingAvg": 4.6,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "1 star", "count": "60K" },
+      { "name": "2 star", "count": "80K" },
+      { "name": "3 star", "count": "150K" },
+      { "name": "4 star", "count": "400K" },
+      { "name": "5 star", "count": "960K" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Zoom Cloud Meetings",
+    "companyName": "Zoom Video Communications",
+    "id": 8,
+    "description": "Zoom Cloud Meetings offers reliable video conferencing and messaging. Connect with colleagues, friends, and communities with high-quality video and audio. Host webinars, online classes, or business meetings effortlessly. Share screens, collaborate on documents, and chat in real-time. Schedule recurring meetings and join from any device with ease. Zoom ensures secure and seamless communication for personal, educational, and professional needs.",
+    "size": 130,
+    "reviews": "9M",
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "1.2M" },
+      { "name": "2 star", "count": "900K" },
+      { "name": "3 star", "count": "1.1M" },
+      { "name": "4 star", "count": "2.5M" },
+      { "name": "5 star", "count": "3.3M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 9,
+    "description": "Telegram is a cloud-based messaging app that emphasizes speed and security. Send messages, media, and files of any type without size limits. Create groups and channels for large communities, and enjoy privacy features such as secret chats and self-destructing messages. Stay connected with multiple devices and synchronize your conversations seamlessly. Telegram also supports bots, polls, and stickers to enhance interaction. It's a versatile app for personal and professional communication worldwide.",
+    "size": 100,
+    "reviews": "22M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "1.3M" },
+      { "name": "2 star", "count": "1.5M" },
+      { "name": "3 star", "count": "2M" },
+      { "name": "4 star", "count": "4M" },
+      { "name": "5 star", "count": "13.2M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 10,
+    "description": "TikTok is a video-sharing platform for creating and discovering short videos. Express yourself creatively with music, filters, and effects. Explore trending content, follow creators, and participate in challenges. The app provides endless entertainment through personalized recommendations. Engage with communities, share your ideas, and gain followers. TikTok makes content creation fun and accessible to everyone, fostering creativity and connection worldwide.",
+    "size": 160,
+    "reviews": "42M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "3.1M" },
+      { "name": "2 star", "count": "4M" },
+      { "name": "3 star", "count": "6M" },
+      { "name": "4 star", "count": "12M" },
+      { "name": "5 star", "count": "17.9M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 11,
+    "description": "ChatGPT is an AI-powered assistant designed for learning, writing, and coding. Ask questions, generate content, and get explanations on complex topics. Improve productivity by automating tasks, brainstorming ideas, or composing texts. ChatGPT can assist with programming problems, language learning, and research. It is interactive, responsive, and continually updated with new knowledge. The app provides an intuitive interface to leverage AI capabilities for personal and professional growth.",
+    "size": 85,
+    "reviews": "3M",
+    "ratingAvg": 4.8,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": "100K" },
+      { "name": "2 star", "count": "150K" },
+      { "name": "3 star", "count": "200K" },
+      { "name": "4 star", "count": "500K" },
+      { "name": "5 star", "count": "2.05M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Figma",
+    "companyName": "Figma Inc.",
+    "id": 12,
+    "description": "Figma is a collaborative design tool for creating user interfaces and prototypes. Work in real-time with team members, leave comments, and iterate efficiently. Create designs for websites, apps, and products using vector graphics and design systems. Figma also allows you to share projects easily and gather feedback from clients. Its browser-based platform ensures accessibility across devices. Perfect for designers, developers, and teams, it enhances creativity and workflow efficiency.",
+    "size": 105,
+    "reviews": "1.8M",
+    "ratingAvg": 4.7,
+    "downloads": "30M",
+    "ratings": [
+      { "name": "1 star", "count": "70K" },
+      { "name": "2 star", "count": "90K" },
+      { "name": "3 star", "count": "150K" },
+      { "name": "4 star", "count": "400K" },
+      { "name": "5 star", "count": "1.08M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 13,
+    "description": "Reddit is a community-driven platform for discussion, news, and entertainment. Join subreddits that match your interests and participate in discussions. Share content, upvote, and comment to engage with communities worldwide. Discover trending topics, ask questions, and get advice on various subjects. Reddit supports anonymity, allowing free expression of ideas. It's a hub for learning, entertainment, and connecting with like-minded people across countless topics.",
+    "size": 90,
+    "reviews": "8M",
+    "ratingAvg": 4.3,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": "700K" },
+      { "name": "2 star", "count": "800K" },
+      { "name": "3 star", "count": "1M" },
+      { "name": "4 star", "count": "2M" },
+      { "name": "5 star", "count": "3.5M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 14,
+    "description": "Snapchat is a multimedia messaging app for sharing photos, videos, and stories. Capture moments and send them to friends instantly or post them on your Story. Use creative filters, lenses, and stickers to enhance your visuals. Chat with friends, make video calls, and join group conversations. Discover content from creators and explore trending topics. Snapchat emphasizes fun, creativity, and privacy, making communication entertaining and engaging.",
+    "size": 140,
+    "reviews": "15M",
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "1.2M" },
+      { "name": "2 star", "count": "1.5M" },
+      { "name": "3 star", "count": "2M" },
+      { "name": "4 star", "count": "4M" },
+      { "name": "5 star", "count": "6.3M" }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YT2N934b/spotify.jpg",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 15,
+    "description": "Netflix is a streaming platform offering movies, series, and original content. Watch anytime, anywhere on multiple devices. Explore a wide range of genres and personalized recommendations. Download content for offline viewing and enjoy high-quality video playback. Create profiles to keep your watching experience tailored. Netflix provides endless entertainment options for individuals, families, and friends, making it the ultimate digital streaming experience.",
+    "size": 180,
+    "reviews": "20M",
+    "ratingAvg": 4.7,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "1.5M" },
+      { "name": "2 star", "count": "2M" },
+      { "name": "3 star", "count": "3M" },
+      { "name": "4 star", "count": "5M" },
+      { "name": "5 star", "count": "8.5M" }
+    ]
+  }
 ]

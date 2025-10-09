@@ -1,8 +1,7 @@
-import React, { useEffectEvent, useState, useEffect } from 'react'
+import React, {useState, useEffect } from 'react'
 import heroImg from '../../../assets/hero.png'
 import App from '../../../Components/App'
-
-
+import { Link } from 'react-router'
 
 const Banner = () => {
 
@@ -69,7 +68,11 @@ const Banner = () => {
                 </div>
             </div>
 
-            <button className="btn btn-primary mx-auto block mt-5">Show All</button>
+            <Link to="/apps">
+
+                <button className="btn btn-primary mx-auto block mt-5">Show All</button>
+
+            </Link>
 
 
 
