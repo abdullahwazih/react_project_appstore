@@ -4,6 +4,7 @@ import downloadImg from '../../assets/download.png'
 import starImg from '../../assets/star.png'
 import reviewImg from '../../assets/review.png'
 import Example from '../../Components/chart';
+import { addAppIdToLocalStorage } from '../../utility/add&get';
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -20,6 +21,17 @@ const AppDetails = () => {
     }, [id]);
 
     if (!app) return <div>Loading...</div>;
+
+    const handleInstall = () => {
+        const success = addAppIdToLocalStorage(app.id);
+
+        if (success) {
+            alert(`${app.title} installed successfully!`);
+        } else {
+            alert(`"${app.title}" is already installed!`);
+        }
+    };
+
 
     return (
         <>
@@ -55,8 +67,9 @@ const AppDetails = () => {
                                 <p className="text-3xl font-bold mt-2">{app.reviews}</p>
                             </div>
                         </div>
-                        <button className="btn btn-primary mt-5">Install Now ({app.size}MB)</button>
-
+                        <button className="btn btn-primary mt-5" onClick={handleInstall}>
+                            Install Now ({app.size}MB)
+                        </button>
                     </div>
 
                 </div>
