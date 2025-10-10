@@ -6,12 +6,18 @@ import Footer from './Footer'
 const Root = () => {
   return (
     <>
-      <NavBar />
+      <div className='min-h-screen flex flex-col w-full'>
 
-      <Outlet />
+        <NavBar />
 
-      <Footer />
-      
+        <main className="flex-grow w-full">
+
+          <Outlet />
+        </main>
+          <Footer />
+
+      </div>
+
     </>
   )
 }

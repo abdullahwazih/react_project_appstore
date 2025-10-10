@@ -21,16 +21,27 @@ const AllApps = () => {
   return (
     <div className='text-black'>
       <h1 className='text-4xl font-bold text-center mt-5'>Our All Application</h1>
-      <p className="text-center">Explore all apps developed by us. We code for millions</p>
-      <div className="flex justify-center mt-6">
-        <input
-          type="text"
-          placeholder="Search apps by title..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="input input-bordered w-150 bg-white border-gray-300 focus:border-blue-500 focus:ring-blue-500"
-        />
+      <p className="text-center mt-2">Explore all apps developed by us. We code for millions</p>
+
+      <div className="flex justify-between items-center pl-5 pr-9">
+        {/* Left side */}
+        <div>
+          <p className = "text-xl font-semibold">{apps.length} Apps found</p>
+        </div>
+
+        {/* Right side */}
+        <div>
+          <input
+            type="text"
+            placeholder="Search apps by title..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="input input-bordered w-60 bg-white border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+          />
+        </div>
       </div>
+
+
       <div className='grid grid-cols-4 gap-4 mt-10'>
         {filteredApps.map((app) => (
           <App key={app.id} app={app} />

@@ -5,6 +5,9 @@ import starImg from '../../assets/star.png'
 import reviewImg from '../../assets/review.png'
 import Example from '../../Components/chart';
 import { addAppIdToLocalStorage } from '../../utility/add&get';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -26,15 +29,18 @@ const AppDetails = () => {
         const success = addAppIdToLocalStorage(app.id);
 
         if (success) {
-            alert(`${app.title} installed successfully!`);
+            toast.success(`${app.title} installed successfully!`);
         } else {
-            alert(`"${app.title}" is already installed!`);
+            toast.error(`"${app.title}" is already installed!`);
         }
+
     };
 
 
     return (
         <>
+
+            <ToastContainer position="top-right" autoClose={3000} />
 
             <div className="bg-white ml-30 mt-5">
 
