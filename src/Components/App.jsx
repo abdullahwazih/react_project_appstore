@@ -23,7 +23,7 @@ const App = ({ app }) => {
             </figure>
             <div className="card-body text-black">
                 <h2 className="card-title">{title}</h2>
-                <p>{description}</p>
+                <p>{description.length > 100 ? description.slice(0, 100) + '...' : description}</p>
                 <div className="mt-auto">
                     <div className="flex justify-between rounded">
                         <div className="bg-gray-200 p-1 rounded-lg text-blue-500">
